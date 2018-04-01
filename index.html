@@ -4,47 +4,70 @@
     <meta charset="utf-8">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   </head>
-  <body>
-    <nav>
-      <h3>MARGARET D</h3>
-      <span>ABOUT</span>
-      <span>PORTFOLIO</span>
-      <span>CONTACT</span>
-    </nav>
-    <div class="Introduction">
-      <p>Front-End Developer and UX/UI designer</p>
-      <p>Web Developer - User Experience Designer - Graphic Artist</p>
-    </div>
-    <div class="work">
-      <h1>PORTFOLIO</h1>
-      <img src="images/Tribute_Page_Screen_Shot.png" alt="Picture of tribute page">
-      <img src="images/Colmar_screenshot.png" alt="Colmar Screenshot">
-      <img src="images/fotomatic_screenshot.png" alt="Fotomatic">
-      <img src="images/jumpstart_screenshot.png" alt="Jumpstart">
-      <img src="images/mytimes_screenshot.png" alt="My Times">
-      <img src="images/Tortoiseshell_screenshot.png" alt="tortoiseshell image">
-    </div>
-    <div class="Contact Info">
-      <h1>CONTACT</h1>
-      <form action="index.html">
-        <label for="name">Name</label>
-        <input type="text" name="name" value="Name">
+  <div class="container-fluid">
+    <body>
+      <nav>
+        <h3 class="float-left">MARGARET D</h3>
+        <ul class="float-right">
+          <li>ABOUT</li>
+          <li>PORTFOLIO</li>
+          <li>CONTACT</li>
+        </ul>
+      </nav>
+      <div class="Introduction">
+        <p>Front-End Developer and UX/UI designer</p>
+        <p>Web Developer - User Experience Designer - Graphic Artist</p>
+      </div>
+      <div class="work">
+        <h1>PORTFOLIO</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/Tribute_Page_Screen_Shot.png" alt="Picture of tribute page">
+          </div>
+          <div class="col-md-6">
+            <img src="images/Colmar_screenshot.png" alt="Colmar Screenshot">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/fotomatic_screenshot.png" alt="Fotomatic">
+          </div>
+          <div class="col-md-6">
+            <img src="images/jumpstart_screenshot.png" alt="Jumpstart">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/mytimes_screenshot.png" alt="My Times">
+          </div>
+          <div class="col-md-6">
+            <img src="images/Tortoiseshell_screenshot.png" alt="tortoiseshell image">
+          </div>
+        </div>
+      </div>
+      <div class="contact-info">
+        <h1>CONTACT</h1>
+        <form action="index.html">
+          <label for="name">Name</label>
+          <input type="text" name="name" value="Name">
 
-        <label for="Email Address">Email Address</label>
-        <input type="text" name="Email-Address" value="Email Address">
+          <label for="Email Address">Email Address</label>
+          <input type="text" name="Email-Address" value="Email Address">
 
-        <label for="Phone Number">Phone Number</label>
-        <input type="text" name="phone-number" value="Phone Number">
+          <label for="Phone Number">Phone Number</label>
+          <input type="text" name="phone-number" value="Phone Number">
 
-        <label for="message">Message</label>
-        <textarea name="Subject" rows="8" cols="80"></textarea>
+          <label for="message">Message</label>
+          <textarea name="Subject" rows="8" cols="80"></textarea>
 
-        <input type="submit" name="submit" value="Submit">
-      </form>
-      <p>Feel free to contact me!</p>
-    </div>
-  </body>
+          <input type="submit" name="submit" value="Submit">
+        </form>
+        <p>Feel free to contact me!</p>
+      </div>
+    </body>
+  </div>
 </html>

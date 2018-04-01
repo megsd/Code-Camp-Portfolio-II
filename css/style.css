@@ -1,6 +1,12 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
+  width: 100%;
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
 }
 
 h1 {
@@ -9,17 +15,27 @@ h1 {
 }
 
 h3 {
-  display: inline;
+  display: inline-block
 }
 
 nav {
   background-color: #474749;
-  color: rgb(236, 163, 150);
+  color: #f5cf00;
   font-size: 1.5rem;
-  height: 4rem;
+  height: 8rem;
   padding: 5% 5% 2.5% 5%;
   width: 100%;
   position: fixed;
+  z-index: 5;
+}
+
+nav ul {
+  display: inline-block;
+}
+
+nav li {
+  display: inline;
+  padding-right: 2rem;
 }
 
 input {
@@ -32,7 +48,7 @@ label {
 
 
 .Introduction {
-  height: 25rem;
+  height: 30rem;
   font-size: 2rem;
   text-align: center;
   margin: 0 auto;
@@ -47,5 +63,33 @@ label {
 }
 
 .work {
-  text-align: center
+  text-align: center;
+  background-color: #e2e2e4;
+  padding-bottom: 5rem;
+}
+
+.work h1 {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+.work .row {
+  margin: 3rem;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+.contact-info h1 {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+form {
+  margin-top: 3rem;
+  padding-left: 4rem;
+}
+
+.contact-info p{
+  padding-left: 4rem;
 }
