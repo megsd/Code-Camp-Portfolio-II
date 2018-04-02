@@ -22,7 +22,7 @@ nav {
   background-color: #474749;
   color: #f5cf00;
   font-size: 1.5rem;
-  height: 8rem;
+  height: 7rem;
   padding: 5% 5% 2.5% 5%;
   width: 100%;
   position: fixed;
@@ -48,18 +48,18 @@ label {
 
 
 .Introduction {
-  height: 30rem;
+  height: 20rem;
   font-size: 2rem;
   text-align: center;
   margin: 0 auto;
-  padding-top: 20%;
+  padding-top: 13%;
   background-color: #b4b5b9;
   color: #474749;
   font-weight: bold;
 }
 
-.Introduction h1 {
-  padding-top: 50px;
+.Introduction p {
+  padding-top:
 }
 
 .work {
@@ -69,14 +69,15 @@ label {
 }
 
 .work h1 {
-  padding-top: 4rem;
-  padding-bottom: 1rem;
+  padding-top: 3.5rem;
 }
+
 .work .row {
   margin: 3rem;
 }
+
 img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -88,6 +89,19 @@ img {
 form {
   margin-top: 3rem;
   padding-left: 4rem;
+}
+
+label {
+  font-weight: bolder;
+}
+
+input {
+  color: #474749;
+  margin-bottom: 1.5rem;
+}
+
+textarea {
+  padding-bottom: 2rem;
 }
 
 .contact-info p{
